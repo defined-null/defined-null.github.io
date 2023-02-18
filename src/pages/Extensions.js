@@ -16,9 +16,7 @@ const db = [
   ["Safurai", "Safurai", "195k", 1, 7],
 ];
 
-const Render_list = React.memo(function Render_list(if_random) {
-  const sorted_db = db.sort(() => Math.random() - 0.5);
-
+const Render_list = React.memo(function Render_list(p) {
   const [open_page, SetOpen_page] = useState("false");
   return (
     <>
@@ -57,7 +55,7 @@ const Render_list = React.memo(function Render_list(if_random) {
               <hr />
               <button
                 type="button"
-                class="col-12 col-sm-3 col-md-2 col-xl-1 btn btn-success text-white"
+                className="col-12 col-sm-3 col-md-2 col-xl-1 btn btn-success text-white"
               >
                 Install
               </button>
@@ -79,7 +77,7 @@ const Render_list = React.memo(function Render_list(if_random) {
         </Modal.Body>
       </Modal>
 
-      {sorted_db.map((x, id) => (
+      {db.map((x, id) => (
         <button
           key={id}
           className="border bg-light px-2 shadow d-inline-block text-decoration-none text-dark me-2 me-md-3 me-lg-4 mb-3"
@@ -164,7 +162,7 @@ function Extensions() {
             </Dropdown.Menu>
           </Dropdown>
         </p>
-        <Render_list if_random={Math.random()} />
+        <Render_list />
         <p className="fs-4 mt-2 mt-xl-0">Most popular</p>
         <Render_list />
       </div>

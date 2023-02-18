@@ -62,7 +62,7 @@ function Blog() {
                 Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.
               </p>
-              <button type="button" class="btn btn-primary mb-3">
+              <button type="button" className="btn btn-primary mb-3">
                 Learn More
               </button>{" "}
               <br />
@@ -81,7 +81,7 @@ function Blog() {
                 it out and give us your feedback by creating issues in the
                 vscode repository or commenting in issue #116740.
               </p>
-              <button type="button" class="btn btn-primary mb-3">
+              <button type="button" className="btn btn-primary mb-3">
                 Learn More
               </button>{" "}
               <br />
@@ -104,7 +104,7 @@ function Blog() {
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
-              <button type="button" class="btn btn-primary mb-3">
+              <button type="button" className="btn btn-primary mb-3">
                 Learn More
               </button>{" "}
               <br />
@@ -123,7 +123,7 @@ function Blog() {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </p>
-              <button type="button" class="btn btn-primary">
+              <button type="button" className="btn btn-primary">
                 Learn More
               </button>
             </>
@@ -131,10 +131,10 @@ function Blog() {
 
           <nav className="mt-4">
             <ul className="pagination justify-content-center">
-              <li class="page-item disabled">
+              <li className="page-item disabled">
                 <button
                   className="page-link"
-                  tabindex="-1"
+                  tabIndex="-1"
                   aria-disabled="true"
                 >
                   Previous

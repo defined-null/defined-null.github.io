@@ -38,7 +38,7 @@ function Updates() {
           you can do to maintain your product's security.
         </p>
 
-        <table class="table table-bordered border-muted">
+        <table className="table table-bordered border-muted">
           <thead>
             <tr>
               <th>Release</th>

@@ -10,7 +10,7 @@ function Pricing() {
       </h1>
 
       <div className="col-12 col-lg-10 col-xxl-9 mx-auto d-none d-sm-block">
-        <table class="table mx-auto my-4s">
+        <table className="table mx-auto my-4s">
           <thead>
             <tr>
               <th></th>
